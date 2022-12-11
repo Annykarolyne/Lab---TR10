@@ -4,14 +4,14 @@ O programa permite que o usuário digite quantos números quiser, desde que seja
 
 # Compilar
 
-Compile com esse comando:
+Compile com este comando:
 ~~~~
 gcc TR3_539005 -o teste
 ~~~~
 
 # Executar
 
-Execute com esse comando:
+Execute com este comando:
 ~~~~
 ./teste
 ~~~~
