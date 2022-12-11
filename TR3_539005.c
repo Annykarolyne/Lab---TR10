@@ -31,13 +31,13 @@ int main(){
             vetor[posicao] = vetor[posicao] | 1 << deslocamento; // armazena os numeros no vetor de bits
         } 
     }
-    for(int a = 0; a < 200; a++){
+    for(int i = 0; i < 200; i++){
 
         for(int j = 0; j < 32; j++){
-            int num = vetor[a] & (1 << j); // recupera os numeros armazenados 
+            int num = vetor[i] & (1 << j); // recupera os numeros armazenados 
 
             if(num){
-                printf("%i ", (a * 32) + j); // printa um por um em ordem crescente
+                printf("%i ", (i * 32) + j); // printa um por um em ordem crescente
             }
         }
     }
