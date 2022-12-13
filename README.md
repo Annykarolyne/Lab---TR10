@@ -6,7 +6,7 @@ O programa permite que o usuário digite quantos números quiser, desde que seja
 
 Compile com este comando:
 ~~~~
-gcc TR3_539005 -o teste
+gcc TR3_539005.c -o teste
 ~~~~
 
 # Executar
